@@ -9,7 +9,7 @@ import {
     DynamicFormLayoutService,
     DynamicFormValidationService,
     DynamicTemplateDirective
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 import { DynamicNGBootstrapFormControlContainerComponent } from "../dynamic-ng-bootstrap-form-control-container.component";
 
 @Component({

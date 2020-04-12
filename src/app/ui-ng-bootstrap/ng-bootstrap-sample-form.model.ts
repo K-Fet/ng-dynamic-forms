@@ -11,7 +11,7 @@ import {
     DynamicTextAreaModel,
     DynamicTimePickerModel,
     MATCH_REQUIRED
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 
 export const NG_BOOTSTRAP_SAMPLE_FORM_MODEL: DynamicFormControlModel[] = [
 

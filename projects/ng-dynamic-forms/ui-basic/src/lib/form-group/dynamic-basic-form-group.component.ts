@@ -10,7 +10,7 @@ import {
     DynamicFormValidationService,
     DynamicTemplateDirective,
     DynamicFormControlContainerComponent
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 
 @Component({
     selector: "dynamic-basic-form-group",

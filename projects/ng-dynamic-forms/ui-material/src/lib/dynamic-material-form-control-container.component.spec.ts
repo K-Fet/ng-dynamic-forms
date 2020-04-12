@@ -14,7 +14,7 @@ import { MatRadioModule } from "@angular/material/radio";
 import { MatSelectModule } from "@angular/material/select";
 import { MatSlideToggleModule } from "@angular/material/slide-toggle";
 import { MatSliderModule } from "@angular/material/slider";
-import { TextMaskModule } from "angular2-text-mask";
+import { IMaskModule } from "angular-imask";
 import {
     DynamicFormsCoreModule,
     DynamicFormService,
@@ -35,7 +35,7 @@ import {
     DynamicSwitchModel,
     DynamicTextAreaModel,
     DynamicTimePickerModel
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 import {
     DynamicMaterialFormControlContainerComponent,
     materialUIFormControlMapFn
@@ -102,7 +102,7 @@ describe("DynamicMaterialFormControlContainerComponent test suite", () => {
                 MatSelectModule,
                 MatSliderModule,
                 MatSlideToggleModule,
-                TextMaskModule,
+                IMaskModule,
                 DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialFormControlContainerComponent, DynamicMaterialInputComponent]

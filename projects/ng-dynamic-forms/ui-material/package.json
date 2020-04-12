@@ -1,5 +1,5 @@
 {
-  "name": "@ng-dynamic-forms/ui-material",
+  "name": "@k-fet/ng-dynamic-forms-ui-material",
   "version": "11.0.3",
   "description": "Material UI package for NG Dynamic Forms",
   "keywords": [
@@ -26,12 +26,13 @@
   "typings": "./ui-material.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/udos86/ng-dynamic-forms.git"
+    "url": "git+https://github.com/k-fet/ng-dynamic-forms.git",
+    "directory": "projects/ng-dynamic-forms/ui-material"
   },
   "peerDependencies": {
     "@angular/material": "^9.0.0",
-    "@ng-dynamic-forms/core": "^11.0.3",
-    "angular2-text-mask": "^9.0.0"
+    "@k-fet/ng-dynamic-forms-core": "^11.0.3",
+    "angular-imask": "^6.0.4"
   },
   "es2015": "./fesm2015/ui-material.js",
   "esm2015": "./esm2015/ui-material.js",

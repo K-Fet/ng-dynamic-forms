@@ -11,8 +11,8 @@ import { MatRadioModule } from "@angular/material/radio";
 import { MatSelectModule } from "@angular/material/select";
 import { MatSlideToggleModule } from "@angular/material/slide-toggle";
 import { MatSliderModule } from "@angular/material/slider";
-import { TextMaskModule } from "angular2-text-mask";
-import { DynamicFormsCoreModule } from "@ng-dynamic-forms/core";
+import { IMaskModule } from "angular-imask";
+import { DynamicFormsCoreModule } from "@k-fet/ng-dynamic-forms-core";
 import { DynamicMaterialFormControlContainerComponent } from "./dynamic-material-form-control-container.component";
 import { DynamicMaterialFormComponent } from "./dynamic-material-form.component";
 import { DynamicMaterialCheckboxComponent } from "./checkbox/dynamic-material-checkbox.component";
@@ -41,7 +41,7 @@ import { DynamicMaterialTextAreaComponent } from "./textarea/dynamic-material-te
         MatSelectModule,
         MatSliderModule,
         MatSlideToggleModule,
-        TextMaskModule,
+        IMaskModule,
         DynamicFormsCoreModule
     ],
     declarations: [

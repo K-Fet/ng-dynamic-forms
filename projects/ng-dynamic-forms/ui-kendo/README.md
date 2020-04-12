@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-npm i @ng-dynamic-forms/ui-kendo -S
+npm i @k-fet/ng-dynamic-forms-ui-kendo -S
 ```
 
 ## Import

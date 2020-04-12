@@ -4,8 +4,8 @@ import { ReactiveFormsModule, FormGroup, FormControl } from "@angular/forms";
 import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { By } from "@angular/platform-browser";
 import { MatSlideToggle, MatSlideToggleModule } from "@angular/material/slide-toggle";
-import { TextMaskModule } from "angular2-text-mask";
-import { DynamicFormsCoreModule, DynamicFormService, DynamicSwitchModel } from "@ng-dynamic-forms/core";
+import { IMaskModule } from "angular-imask";
+import { DynamicFormsCoreModule, DynamicFormService, DynamicSwitchModel } from "@k-fet/ng-dynamic-forms-core";
 import { DynamicMaterialSlideToggleComponent } from "./dynamic-material-slide-toggle.component";
 
 describe("DynamicMaterialSlideToggleComponent test suite", () => {
@@ -26,7 +26,7 @@ describe("DynamicMaterialSlideToggleComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 MatSlideToggleModule,
-                TextMaskModule,
+                IMaskModule,
                 DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialSlideToggleComponent]

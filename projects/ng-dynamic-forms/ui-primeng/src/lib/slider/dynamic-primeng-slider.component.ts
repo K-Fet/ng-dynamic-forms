@@ -8,7 +8,7 @@ import {
     DynamicFormValidationService,
     DynamicFormControlComponent,
     DynamicSliderModel, DynamicFormControlLayout
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 
 @Component({
     selector: "dynamic-primeng-slider",

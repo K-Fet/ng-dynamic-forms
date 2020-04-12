@@ -34,7 +34,7 @@ import {
     DynamicFormRelationService,
     DynamicFormValidationService,
     DynamicTemplateDirective
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 import { DynamicBasicCheckboxComponent } from "./checkbox/dynamic-basic-checkbox.component";
 import { DynamicBasicInputComponent } from "./input/dynamic-basic-input.component";
 import { DynamicBasicRadioGroupComponent } from "./radio-group/dynamic-basic-radio-group.component";

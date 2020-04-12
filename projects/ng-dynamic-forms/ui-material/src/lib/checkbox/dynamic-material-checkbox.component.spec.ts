@@ -4,8 +4,8 @@ import { ReactiveFormsModule, FormGroup, FormControl } from "@angular/forms";
 import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { By } from "@angular/platform-browser";
 import { MatCheckbox, MatCheckboxModule } from "@angular/material/checkbox";
-import { TextMaskModule } from "angular2-text-mask";
-import { DynamicCheckboxModel, DynamicFormsCoreModule, DynamicFormService } from "@ng-dynamic-forms/core";
+import { IMaskModule } from "angular-imask";
+import { DynamicCheckboxModel, DynamicFormsCoreModule, DynamicFormService } from "@k-fet/ng-dynamic-forms-core";
 import { DynamicMaterialCheckboxComponent } from "./dynamic-material-checkbox.component";
 
 describe("DynamicMaterialCheckboxComponent test suite", () => {
@@ -26,7 +26,7 @@ describe("DynamicMaterialCheckboxComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 MatCheckboxModule,
-                TextMaskModule,
+                IMaskModule,
                 DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialCheckboxComponent]

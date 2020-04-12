@@ -5,7 +5,7 @@ import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { By } from "@angular/platform-browser";
 import { TextMaskModule } from "angular2-text-mask";
 import { Spinner, SpinnerModule } from "primeng/spinner";
-import { DynamicFormsCoreModule, DynamicFormService, DynamicInputModel } from "@ng-dynamic-forms/core";
+import { DynamicFormsCoreModule, DynamicFormService, DynamicInputModel } from "@k-fet/ng-dynamic-forms-core";
 import { DynamicPrimeNGSpinnerComponent } from "./dynamic-primeng-spinner.component";
 
 describe("DynamicPrimeNGSpinnerComponent test suite", () => {

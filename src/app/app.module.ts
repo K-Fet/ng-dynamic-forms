@@ -18,14 +18,14 @@ import {
     Validator,
     ValidatorFactory,
     DYNAMIC_MATCHER_PROVIDERS
-} from "@ng-dynamic-forms/core";
-import { DynamicFormsBasicUIModule } from "@ng-dynamic-forms/ui-basic";
-import { DynamicFormsFoundationUIModule } from "@ng-dynamic-forms/ui-foundation";
-import { DynamicFormsKendoUIModule } from "@ng-dynamic-forms/ui-kendo";
-import { DynamicFormsMaterialUIModule } from "@ng-dynamic-forms/ui-material";
-import { DynamicFormsNGBootstrapUIModule } from "@ng-dynamic-forms/ui-ng-bootstrap";
-import { DynamicFormsNGxBootstrapUIModule } from "@ng-dynamic-forms/ui-ngx-bootstrap";
-import { DynamicFormsPrimeNGUIModule } from "@ng-dynamic-forms/ui-primeng";
+} from "@k-fet/ng-dynamic-forms-core";
+import { DynamicFormsBasicUIModule } from "@k-fet/ng-dynamic-forms-ui-basic";
+import { DynamicFormsFoundationUIModule } from "@k-fet/ng-dynamic-forms-ui-foundation";
+import { DynamicFormsKendoUIModule } from "@k-fet/ng-dynamic-forms-ui-kendo";
+import { DynamicFormsMaterialUIModule } from "@k-fet/ng-dynamic-forms-ui-material";
+import { DynamicFormsNGBootstrapUIModule } from "@k-fet/ng-dynamic-forms-ui-ng-bootstrap";
+import { DynamicFormsNGxBootstrapUIModule } from "@k-fet/ng-dynamic-forms-ui-ngx-bootstrap";
+import { DynamicFormsPrimeNGUIModule } from "@k-fet/ng-dynamic-forms-ui-primeng";
 
 import { BasicSampleFormComponent } from "./ui-basic/basic-sample-form.component";
 import { FoundationSampleFormComponent } from "./ui-foundation/foundation-sample-form.component";

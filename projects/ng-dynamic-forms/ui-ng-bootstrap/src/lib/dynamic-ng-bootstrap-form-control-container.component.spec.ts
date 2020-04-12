@@ -30,7 +30,7 @@ import {
     DynamicSwitchModel,
     DynamicTextAreaModel,
     DynamicTimePickerModel
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 import {
     DynamicNGBootstrapFormControlContainerComponent,
     ngBootstrapUIFormControlMapFn

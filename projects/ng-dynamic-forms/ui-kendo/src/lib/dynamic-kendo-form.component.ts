@@ -16,7 +16,7 @@ import {
     DynamicFormLayout,
     DynamicFormModel,
     DynamicTemplateDirective
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 import { DynamicKendoFormControlContainerComponent } from "./dynamic-kendo-form-control-container.component";
 
 @Component({

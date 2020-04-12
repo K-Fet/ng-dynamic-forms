@@ -5,7 +5,7 @@ import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { By } from "@angular/platform-browser";
 import { TextMaskModule } from "angular2-text-mask";
 import { Chips, ChipsModule } from "primeng/chips";
-import { DynamicFormsCoreModule, DynamicFormService, DynamicInputModel } from "@ng-dynamic-forms/core";
+import { DynamicFormsCoreModule, DynamicFormService, DynamicInputModel } from "@k-fet/ng-dynamic-forms-core";
 import { DynamicPrimeNGChipsComponent } from "./dynamic-primeng-chips.component";
 
 describe("DynamicPrimeNGChipsComponent test suite", () => {

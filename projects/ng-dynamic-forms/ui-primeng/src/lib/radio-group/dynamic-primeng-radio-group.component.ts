@@ -6,7 +6,7 @@ import {
     DynamicFormValidationService,
     DynamicFormControlComponent,
     DynamicRadioGroupModel, DynamicFormControlLayout
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 
 @Component({
     selector: "dynamic-primeng-radio-group",

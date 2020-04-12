@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-npm i @ng-dynamic-forms/ui-ionic -S
+npm i @k-fet/ng-dynamic-forms-ui-ionic -S
 ```
 
 ## Import

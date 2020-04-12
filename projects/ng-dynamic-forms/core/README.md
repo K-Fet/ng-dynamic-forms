@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-npm i @ng-dynamic-forms/core -S
+npm i @k-fet/ng-dynamic-forms-core -S
 ```
 
 ## Import

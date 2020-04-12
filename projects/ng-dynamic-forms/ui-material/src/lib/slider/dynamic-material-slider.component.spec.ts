@@ -4,8 +4,8 @@ import { ReactiveFormsModule, FormGroup, FormControl } from "@angular/forms";
 import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { By } from "@angular/platform-browser";
 import { MatSlider, MatSliderModule } from "@angular/material/slider";
-import { TextMaskModule } from "angular2-text-mask";
-import { DynamicFormsCoreModule, DynamicFormService, DynamicSliderModel } from "@ng-dynamic-forms/core";
+import { IMaskModule } from "angular-imask";
+import { DynamicFormsCoreModule, DynamicFormService, DynamicSliderModel } from "@k-fet/ng-dynamic-forms-core";
 import { DynamicMaterialSliderComponent } from "./dynamic-material-slider.component";
 
 describe("DynamicMaterialSliderComponent test suite", () => {
@@ -26,7 +26,7 @@ describe("DynamicMaterialSliderComponent test suite", () => {
                 ReactiveFormsModule,
                 NoopAnimationsModule,
                 MatSliderModule,
-                TextMaskModule,
+                IMaskModule,
                 DynamicFormsCoreModule
             ],
             declarations: [DynamicMaterialSliderComponent]

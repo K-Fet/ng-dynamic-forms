@@ -5,7 +5,7 @@ import {
     DynamicFormValidationService,
     DynamicInputControlModel,
     DynamicInputModel
-} from "@ng-dynamic-forms/core";
+} from "@k-fet/ng-dynamic-forms-core";
 
 export abstract class DynamicMaterialFormInputControlComponent extends DynamicFormControlComponent {
 

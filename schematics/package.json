@@ -1,5 +1,5 @@
 {
-  "name": "@ng-dynamic-forms/schematics",
+  "name": "@k-fet/ng-dynamic-forms-schematics",
   "version": "11.0.3",
   "description": "NG Dynamic Forms schematics",
   "scripts": {
